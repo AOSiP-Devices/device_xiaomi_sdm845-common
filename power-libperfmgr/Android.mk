@@ -17,6 +17,7 @@ LOCAL_SRC_FILES := \
     InteractionHandler.cpp \
     Power.cpp \
     power-helper.c \
+    display-helper.c \
     service.cpp
 
 LOCAL_SHARED_LIBRARIES := \
