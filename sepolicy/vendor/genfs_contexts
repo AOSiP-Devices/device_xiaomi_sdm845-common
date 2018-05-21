@@ -10,5 +10,13 @@ genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc/irq                   u
 genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc/wakeup_enable         u:object_r:sysfs_fingerprint:s0
 genfscon sysfs /devices/platform/soc/soc:fingerprint_goodix/proximity_state    u:object_r:sysfs_fingerprint:s0
 
+genfscon sysfs /class/devfreq                                  u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,cpubw            u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,gpubw            u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,llccbw           u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,mincpubw         u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,l3-cpu0          u:object_r:sysfs_msm_subsys:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,l3-cpu4          u:object_r:sysfs_msm_subsys:s0
+
 genfscon sysfs /power/rpmh_stats/master_stats         u:object_r:sysfs_rpm:s0
 genfscon sysfs /power/system_sleep/stats              u:object_r:sysfs_system_sleep_stats:s0
