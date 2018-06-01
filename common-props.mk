@@ -130,9 +130,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.enable_fb_ubwc=1
     debug.sf.disable_backpressure=1 \
+    debug.sf.early_phase_offset_ns=5000000 \
     debug.sf.enable_hwc_vds=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.hw=1 \
+
     persist.demo.hdmirotationlock=false \
     persist.sys.sf.native_mode=0 \
     ro.opengles.version=196610 \
