@@ -6,8 +6,8 @@ ifneq ($(TARGET_TAP_TO_WAKE_NODE),)
     LOCAL_CFLAGS += -DTAP_TO_WAKE_NODE=\"$(TARGET_TAP_TO_WAKE_NODE)\"
 endif
 
-LOCAL_MODULE := android.hardware.power@1.2-service.xiaomi_sdm845-libperfmgr
-LOCAL_INIT_RC := android.hardware.power@1.2-service.xiaomi_sdm845-libperfmgr.rc
+LOCAL_MODULE := android.hardware.power@1.3-service.xiaomi_sdm845-libperfmgr
+LOCAL_INIT_RC := android.hardware.power@1.3-service.xiaomi_sdm845-libperfmgr.rc
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
 
@@ -24,6 +24,7 @@ LOCAL_SHARED_LIBRARIES := \
     android.hardware.power@1.0 \
     android.hardware.power@1.1 \
     android.hardware.power@1.2 \
+    android.hardware.power@1.3 \
     libbase \
     libcutils \
     libhidlbase \
