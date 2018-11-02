@@ -1,0 +1,16 @@
+[
+  {
+    "repository" : "kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845"
+  },
+  {
+    "repository" : "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch"     : "lineage-16.0"
+  },
+  {
+    "repository" : "TheMuppets/proprietary_xiaomi_vendor",
+    "target_path": "vendor/xiaomi",
+    "branch"     : "lineage-16.0"
+  }
+]
