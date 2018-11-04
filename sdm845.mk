@@ -102,3 +102,7 @@ PRODUCT_PACKAGES += \
 # VNDK-SP
 PRODUCT_PACKAGES += \
     vndk-sp
+
+# Camera
+PRODUCT_PACKAGES += \
+    Camera2
