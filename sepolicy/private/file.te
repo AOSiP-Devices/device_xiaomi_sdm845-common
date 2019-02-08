@@ -5,4 +5,5 @@ type firmware_file, file_type;
 type persist_file, file_type;
 type pps_socket, file_type;
 type sysfs_graphics, sysfs_type, fs_type;
+type sysfs_touchpanel, sysfs_type, fs_type;
 type sysfs_white_led, sysfs_type, fs_type;
