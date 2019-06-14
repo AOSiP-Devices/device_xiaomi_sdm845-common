@@ -299,6 +299,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk-sp
 
+PRODUCT_ENFORCE_RRO_TARGETS += \
+    framework-res
+
 # VR
 PRODUCT_PACKAGES += \
     android.hardware.vr@1.0-impl \
