@@ -10,6 +10,7 @@
   },
   {
     "repository" : "proprietary_vendor_xiaomi",
-    "target_path": "vendor/xiaomi"
+    "target_path": "vendor/xiaomi",
+    "branch": "temp-ten-dipper"
   }
 ]
