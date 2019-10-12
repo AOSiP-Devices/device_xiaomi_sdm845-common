@@ -1,12 +1,20 @@
 <manifest version="1.0" type="framework">
     <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.keystore</name>
+        <name>android.hardware.wifi.supplicant</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.google.wifi_ext</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
-            <name>IKeystoreExt</name>
+            <name>IWifiExt</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IKeystoreExt/default</fqname>
     </hal>
 </manifest>

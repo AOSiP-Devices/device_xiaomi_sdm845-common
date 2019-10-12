@@ -23,3 +23,7 @@ persist.vendor.sys.pay.ifaa              u:object_r:vendor_tee_listener_prop:s0
 
 # Thermal
 sys.thermal.               u:object_r:thermal_engine_prop:s0
+
+# Google Wi-Fi
+vendor.wlan.driver.version    u:object_r:vendor_wifi_version:s0
+vendor.wlan.firmware.version  u:object_r:vendor_wifi_version:s0
