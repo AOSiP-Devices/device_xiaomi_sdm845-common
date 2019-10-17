@@ -66,3 +66,6 @@
 
 # Google Wi-Fi
 /vendor/bin/hw/vendor\.google\.wifi_ext@1\.0-service-vendor                 u:object_r:hal_wifi_ext_exec:s0
+
+# Media
+/vendor/bin/hw/vendor\.qti\.media\.c2@1\.0-service               u:object_r:mediacodec_exec:s0

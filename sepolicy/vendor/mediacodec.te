@@ -1,0 +1,5 @@
+allow mediacodec system_file:dir r_dir_perms;
+
+allow mediacodec self:binder call;
+
+dontaudit mediacodec vendor_display_prop:file r_file_perms;
