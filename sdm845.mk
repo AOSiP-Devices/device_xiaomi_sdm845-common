@@ -143,6 +143,22 @@ PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0-impl.generic \
     android.hardware.contexthub@1.0-service
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.display.foss=1 \
+    ro.vendor.display.paneltype=2 \
+    ro.vendor.display.sensortype=2 \
+    vendor.display.foss.config=1 \
+    vendor.display.foss.config_path=/vendor/etc/FOSSConfig.xml
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/FOSSConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/FOSSConfig.xml
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.display.dataspace_saturation_matrix=1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.display.disable_decimation=1
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service \
@@ -153,6 +169,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm845 \
     libtinyxml \
     libvulkan \
+    lights.sdm845 \
     memtrack.sdm845 \
     vendor.display.config@1.7 \
     vendor.qti.hardware.display.allocator@1.0-service
@@ -288,6 +305,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.sensors@1.0-service \
+    sensors.sdm845 \
     libsensorndkbridge
 
 # Telephony
