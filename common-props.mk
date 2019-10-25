@@ -155,7 +155,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # RCS and IMS
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.rcs.supported=0 \
+    persist.rcs.supported=1 \
     persist.vendor.ims.disableUserAgent=0
 
 # RIL
