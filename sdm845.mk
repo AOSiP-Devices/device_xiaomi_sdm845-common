@@ -21,6 +21,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/sdm845 \
     hardware/qcom/sdm845/audio
 
+$(call inherit-product, $(LOCAL_PATH)/utils.mk)
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
