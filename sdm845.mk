@@ -371,15 +371,6 @@ PRODUCT_PACKAGES += \
 LIB_NL := libnl_32
 PRODUCT_PACKAGES += $(LIB_NL)
 
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libdisplayconfig \
-    libnl \
-    libqdMetaData.system
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Setting vendor SPL
 VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 
