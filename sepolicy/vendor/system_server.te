@@ -1,1 +1,2 @@
 binder_call(system_server, glgps)
+diag_use(system_server)

@@ -1,0 +1,2 @@
+allow platform_app camera_prop:file { getattr open read map };
+allow platform_app persist_camera_prop:file { getattr open read map };

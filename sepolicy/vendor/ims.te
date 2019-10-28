@@ -1,0 +1,2 @@
+allow ims hal_cne_hwservice:hwservice_manager find;
+diag_use(ims)
