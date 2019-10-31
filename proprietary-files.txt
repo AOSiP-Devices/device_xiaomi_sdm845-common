@@ -1,25 +1,25 @@
-# ADSP
-vendor/bin/adsprpcd
-vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
-vendor/lib/libadsp_default_listener.so
-vendor/lib/libadsprpc.so
+# ADSP - from dipper - QKQ1.190828.002
+vendor/bin/adsprpcd|2e28ed075e8d2686ec33a63253d4e31e605aa276
+vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc|5de36026ce241c83c69bb0d149bf271e19c114c9
+vendor/lib64/libadsp_default_listener.so|1316afa37cf8047c6008d504ce777aaf8640de97
+vendor/lib64/libadsprpc.so|2ab3596ae5a82c6fdfe0509b3512713ea8255975
+vendor/lib/libadsp_default_listener.so|662945b481a7300289df1415ac44447ec2cb0549
+vendor/lib/libadsprpc.so|45a3028067da4104a3cfa15bf2da211dec816b33
 
-# ADSP modules
-vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
-vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
-vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
-vendor/lib/rfsa/adsp/libSuperSensor_skel.so
-vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
-vendor/lib/rfsa/adsp/libapps_mem_heap.so
-vendor/lib/rfsa/adsp/libdirac-capiv2.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so
-vendor/lib/rfsa/adsp/libdsp_streamer_skel.so
-vendor/lib/rfsa/adsp/libexternal_dog_skel.so
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+# ADSP modules - from dipper - QKQ1.190828.002
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|1f7fc829f3f94991186818a364d748562cc13e03
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so|eb0e912d25b06f977d5a89345c72d142b7ffb8ae
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so|c7028f19680001da4dcb039cbaecf05cfd7350b1
+vendor/lib/rfsa/adsp/libSuperSensor_skel.so|3cf36d5dac2ad627a91a58f2ef1f4a13e687c459
+vendor/lib/rfsa/adsp/libVC1Dec.so|80f2879a960344b24539725b2a5dc9ebe9d97bf5
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|c626d2136bf0d0016baf4c39ecc4a8f3241fa342
+vendor/lib/rfsa/adsp/libapps_mem_heap.so|26ac189fbdd6a893172a2781b90cbaf96eba0c7e
+vendor/lib/rfsa/adsp/libdirac-capiv2.so|a4d102a732937584771d4bbe9baf447b67d81e1a
+vendor/lib/rfsa/adsp/libdspCV_skel.so|2253ba74ae5d14dee3beeb07af64dbd429dbe011
+vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so|ceec8df77c6501df4bbc06cd82d800e361505c1a
+vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|34b1da18cd6cee71154b9028b11db17723017c00
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
 
 # Audio
 vendor/lib64/hw/audio.primary.sdm845.so
@@ -75,19 +75,21 @@ vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so
 lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# CDSP
-vendor/bin/cdsprpcd
-vendor/lib64/libcdsp_default_listener.so
-vendor/lib64/libcdsprpc.so
-vendor/lib64/libfastrpc_utf_stub.so
-vendor/lib64/libsdsprpc.so
-vendor/lib64/libsysmon_cdsp_skel.so
-vendor/lib/libcdsp_default_listener.so
-vendor/lib/libcdsprpc.so
-vendor/lib/libfastcrc.so
-vendor/lib/libfastrpc_utf_stub.so
-vendor/lib/libsdsprpc.so
-vendor/lib/libsysmon_cdsp_skel.so
+# CDSP - from dipper - QKQ1.190828.002
+vendor/bin/cdsprpcd|b76dd062f530a4a9d51e4e5107ccd7588e33e55f
+vendor/lib64/libcdsp_default_listener.so|921ed7d9a103932e152ffd6097a56840ff346ecf
+vendor/lib64/libcdsprpc.so|fa7c5b94865e546a67f2f81c8ff780102ccfa94c
+vendor/lib64/libfastrpc_utf_stub.so|4f9bf492fcda860e3fa37e7d315f1dd6ad173ce2
+vendor/lib64/libsdsprpc.so|133fef6eaa4af0988a9d4c78af235c1cd9e72c32
+vendor/lib64/libsysmon_cdsp_skel.so|74b190379ef0bf45f08b875c12eb7303c4627646
+vendor/lib64/libmdsprpc.so|c23bca05f464a181cf139844f1f056fcbf86910f
+vendor/lib/libcdsp_default_listener.so|ee7fbe0bddf11d385e0ffa68eaf6035ddc02168f
+vendor/lib/libcdsprpc.so|2f0d439b87240be9729500f1d3caa4989d19459a
+vendor/lib/libfastcrc.so|d7d9125ceada3f5d03221fbfb8ea827b4632dd90
+vendor/lib/libfastrpc_utf_stub.so|4062933e12d3e6a986843213f39a427cac13b04f
+vendor/lib/libsdsprpc.so|e361c5f4c40b48d56b40b8d3acdbe9ff4f22a592
+vendor/lib/libsysmon_cdsp_skel.so|3677374021c93e1fc84a8a5fc203e191fde25f31
+vendor/lib/libmdsprpc.so|6416f720c0c023bd38f7a419d20974def95e0167
 
 # Charger
 vendor/bin/hvdcp_opti
@@ -718,32 +720,34 @@ vendor/radio/qcril_database/upgrade/upgrade/1_version_intro.sql
 vendor/radio/qcril_database/upgrade/upgrade/2_version_add_wps_config.sql
 vendor/radio/qcril_database/upgrade/upgrade/3_version_update_wps_config.sql
 
-# Sensors
-vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
-vendor/bin/sensors.qti
-vendor/bin/sscrpcd
-vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
-vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
-vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
-vendor/lib64/libsensorcal.so
-vendor/lib64/libsensorslog.so
-vendor/lib64/libssc.so
-vendor/lib64/libssc_default_listener.so
-vendor/lib64/libssccalapi.so
-vendor/lib64/libsns_device_mode_stub.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/libsnsdiaglog.so
-vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
-vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
-vendor/lib/libsensorcal.so
-vendor/lib/libsensorslog.so
-vendor/lib/libssc.so
-vendor/lib/libssc_default_listener.so
-vendor/lib/libssccalapi.so
-vendor/lib/libsns_device_mode_stub.so
-vendor/lib/libsns_low_lat_stream_stub.so
-vendor/lib/libsnsdiaglog.so
-vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
+# Sensors - from dipper - QKQ1.190828.002
+vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service|1e2f806bcce877bd26448de334693d77a71d02f9
+vendor/bin/sensors.qti|665c7a5bc161d4a04fc5b1fcdfb6cd6a62e8aec4
+vendor/bin/sscrpcd|51dd138c432817e0692fa99d349e1c208211a641
+vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc|449c88778d880c0d47cc4d651fc60c4c424c1a3f
+vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml|f4884c1776c9f77c24bfce853fe22627ea4b7f79
+vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so|a01c28685425e3c57ac713d95639bc74ed6158cd
+vendor/lib64/libsensorcal.so|7eeac7ba384d07a54342c26bc9d1b07909d68dd6
+vendor/lib64/libsensorslog.so|cfaebc819d84b39ee8b06de01117f3ce99c39dea
+vendor/lib64/libssc.so|c29ac16627c91a4fdf1c53126dec3060d6e4633d
+vendor/lib64/libssc_default_listener.so|5adc6190063a5b721b216109ca58b18c059733b7
+vendor/lib64/libssccalapi.so|d1b7077d47ebc36bdffe9e71d1f7784b39148859
+vendor/lib64/libsns_device_mode_stub.so|33b4b7b5679d24c82285f616fc5efc06326d4aad
+vendor/lib64/libsns_fastRPC_util.so|201936343044a279b5068f9ff3a1b1a8a96a4cc8
+vendor/lib64/libsns_low_lat_stream_stub.so|4b06d6f93bc2937aa9777413924ca9d015b6f422
+vendor/lib64/libsnsdiaglog.so|f7d675db04233ca82b7278b4a036de9788326a93
+vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|5ac7099405cd6d6bc4ffde32547f20547f78f619
+vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so|ebecacb8fc247f82f2541046ee84b6ca11ed079e
+vendor/lib/libsensorcal.so|ccba47af6500678feb4694193d3073851ef6009c
+vendor/lib/libsensorslog.so|c96450e637d87e74874d42bc00f3ea65e37e610b
+vendor/lib/libssc.so|71caa1f4fa28d932bcc13cc3f036107b9cf55e55
+vendor/lib/libssc_default_listener.so|427f9ee8f32add8da7c0fd81c7d18634d4ebe4ad
+vendor/lib/libssccalapi.so|ce1abced11e1e8783e3afba4ea092782dd8c3a11
+vendor/lib/libsns_device_mode_stub.so|b0a53fe4a2e5c530ad1a3c8dbd52f55259da62ca
+vendor/lib/libsns_fastRPC_util.so|1ac51d721f154ce2a37f698f6f247fc25ab23bbd
+vendor/lib/libsns_low_lat_stream_stub.so|fd2a9d7a230b94ef9108bca77f70180ba5b88351
+vendor/lib/libsnsdiaglog.so|91b7cfd92b8ec1a520395a6c5c6a777b0aea3a90
+vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|46a638b9b85a3d4db6e37c9db484aa28815d4db5
 
 # Snapdragon Computer Vision Engine
 vendor/etc/scve/facereco/gModel.dat
