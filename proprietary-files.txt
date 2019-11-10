@@ -91,8 +91,10 @@ vendor/lib/libsdsprpc.so|e361c5f4c40b48d56b40b8d3acdbe9ff4f22a592
 vendor/lib/libsysmon_cdsp_skel.so|3677374021c93e1fc84a8a5fc203e191fde25f31
 vendor/lib/libmdsprpc.so|6416f720c0c023bd38f7a419d20974def95e0167
 
-# Charger
-vendor/bin/hvdcp_opti
+# Charger - from dipper - QKQ1.190828.002
+vendor/bin/hvdcp_opti|c38e1c9307b8e2e322834ff3a76605103629142b
+vendor/bin/init.qti.chg_policy.sh|132950e9cf9c1377d03766d126719e6912fc27c9
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|3dab489feaf8d00e06894db7c92b462d701e4c98
 
 # CNE
 etc/permissions/cneapiclient.xml
@@ -208,84 +210,59 @@ vendor/lib64/vendor.display.postproc@1.0.so|a2bb1d20cbcc1f77909c5f0ca9b1b91a1870
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|ec3690ac937be4e1a4cf37e1471fb2bcbe03787a
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|41d9192472e0e67bb6564dcd806af984afa89b24
 
-# DPM
-bin/dpmd
-etc/dpm/dpm.conf
-etc/init/dpmd.rc
-etc/permissions/com.qti.dpmframework.xml
-etc/permissions/dpmapi.xml
-framework/com.qti.dpmframework.jar
-framework/dpmapi.jar
-framework/tcmclient.jar
-lib64/com.qualcomm.qti.dpm.api@1.0.so
-lib64/libdpmctmgr.so
-lib64/libdpmfdmgr.so
-lib64/libdpmframework.so
-lib64/libdpmtcm.so
-lib/com.qualcomm.qti.dpm.api@1.0.so
-lib/libdpmctmgr.so
-lib/libdpmfdmgr.so
-lib/libdpmframework.so
-lib/libdpmtcm.so
--priv-app/dpmserviceapp/dpmserviceapp.apk
-vendor/bin/dpmQmiMgr
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
-vendor/lib64/libdpmqmihal.so
-vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
-vendor/lib/libdpmqmihal.so
+# DRM - from dipper - QKQ1.190828.002
+vendor/bin/qseecomd|7b80aa465563a3ac6e5ea7ef0e3d1a0015686cf2
+vendor/bin/seemp_healthd|708a88ba15625bdd304d1b94759816fe0678ab56
+vendor/etc/init/qseecomd.rc|e11b6064bf2ed2367d2cb7dd7832e64bfc8584ae
+vendor/lib64/libcpion.so|b29694b5a85b56669e390dcc4b58f5b21c1ccc91
+vendor/lib64/libdrmfs.so|9ca7d9abc720eac2edd637a21d7563f235620dbf
+vendor/lib64/libdrmtime.so|0bcdb073a8ae83694d88478829dd7d3b12d6136e
+vendor/lib64/libGPreqcancel.so|0fcb37e6ef4dea68e44c041c4d29597134ed6dba
+vendor/lib64/libGPreqcancel_svc.so|c2c4ef8c2c6298bfa0379e8258776ccac37bb47a
+vendor/lib64/libqisl.so|82a1acc232db3d74c670134db4e9db292a479ac2
+vendor/lib64/libQSEEComAPI.so|7624266ee46c174afd27194c72e17239cda2b856
+vendor/lib64/librpmb.so|b5d349a831f7b99d07078c47f0236df00a116e72
+vendor/lib64/libSecureUILib.so|ef22c12b87f32f133fd7f6e06f3c854f8d522897
+vendor/lib64/libsecureui.so|d22514488722a31593e41e9f001d8d7f2d0c5696
+vendor/lib64/libsecureui_svcsock.so|328ce55dc005536fc807c89e6acac584ad00231f
+vendor/lib64/libspl.so|34029c5b493486e83f56f2a8b0342787ad46add5
+vendor/lib64/libssd.so|546ee25db2c605c3a0036f300c2cc72a29a974ab
+vendor/lib64/libStDrvInt.so|c60fa62d2947aab327b8a59d51d257aef87414b2
+vendor/lib64/libtzdrmgenprov.so|ddba8e7b89c027bdf2ab890fb34030a3a255518a
+vendor/lib/libcppf.so|de3494a6c70aa4c0027a845d7165882dc1176393
+vendor/lib/libdrmfs.so|7c4c2c25dcfea3df7fcd433d45697adc24e37de0
+vendor/lib/libdrmtime.so|5a16d56757d3f0e486922d8e3945dc03833419dc
+vendor/lib/libGPreqcancel.so|12c1bd1da23a4d15f6a6e9094fdd7d3b75472167
+vendor/lib/libGPreqcancel_svc.so|12226c714b673782af39bbadddf28e050d2e2792
+vendor/lib/libqisl.so|d1976c39c73fc65e1f8bdae8111f73e1988630ce
+vendor/lib/libQSEEComAPI.so|575a4e6ac68b6458a860529a9ca6f8d80bb26355
+vendor/lib/librpmb.so|306b6dd66370258894bd1bc5ab084f3977c13ab6
+vendor/lib/libSecureUILib.so|3b3e75f790aa6b87e072d0c7e44fd04b94715f03
+vendor/lib/libsecureui.so|053cf94fb49e3ae4e3821eaa62c8bc452b5a4ef9
+vendor/lib/libsecureui_svcsock.so|1306187b847697f45144053d4ad90d7c58ec2d24
+vendor/lib/libspl.so|c39fa8afb76979b56d2c3310b2149c48dcbafe34
+vendor/lib/libssd.so|d80eccd471676ca36c016bf2835c72ebe90fe5f0
+vendor/lib/libStDrvInt.so|f57046cc98b017d77377a40c3ad5c6982d74c354
+vendor/lib/libtzdrmgenprov.so|36ea0ae7434aef512b0d336b86d679457746706c
 
-# DRM
-vendor/bin/qseecomd
-vendor/bin/seemp_healthd
-vendor/lib64/libcpion.so
-vendor/lib64/libdrmfs.so
-vendor/lib64/libdrmtime.so
-vendor/lib64/libGPreqcancel.so
-vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libqisl.so
-vendor/lib64/libQSEEComAPI.so
-vendor/lib64/librpmb.so
-vendor/lib64/libSecureUILib.so
-vendor/lib64/libsecureui.so
-vendor/lib64/libsecureui_svcsock.so
-vendor/lib64/libspl.so
-vendor/lib64/libssd.so
-vendor/lib64/libStDrvInt.so
-vendor/lib64/libtzdrmgenprov.so
-vendor/lib/libcppf.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libqisl.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib/librpmb.so
-vendor/lib/libSecureUILib.so
-vendor/lib/libsecureui.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libspl.so
-vendor/lib/libssd.so
-vendor/lib/libStDrvInt.so
-vendor/lib/libtzdrmgenprov.so
+# ESE - from dipper - QKQ1.190828.002
+vendor/bin/hw/vendor.qti.esepowermanager@1.0-service|231cb6ec66cb69458a8a68461d9857918c2f45f9
+vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc|58a3866ad5a7613d9392c9adb671eaa7825578a2
+vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so|e1aeb628b01650cd2fbea6acd7d22aa8c6b58bae
+vendor/lib/vendor.qti.esepowermanager@1.0.so|23c478415e7436749a70f1666e7c2ab4781f3880
+vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so|0210eedb323d2d08e676c0318b58f4d71289ef6a
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|f54548d8a5edc727bf23a09ff4068bc31e581008
 
-# ESE
-vendor/bin/hw/vendor.qti.esepowermanager@1.0-service
-vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc
-vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so
-vendor/lib64/vendor.qti.esepowermanager@1.0.so
-vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so
-vendor/lib/vendor.qti.esepowermanager@1.0.so
+# Fingerprint - from dipper - QKQ1.190828.002
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845|2e3d50ffcdb7aecd726478381fb081bbe5b6ccd7
+vendor/lib64/com.fingerprints.extension@1.0.so|614145c9bb0deb9795d4b2bebf7e845886abb1f6
+vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so|74e470a473d6469569e21449cb317d5c6583cfd6
 
-# Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm845
-vendor/lib64/com.fingerprints.extension@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
-
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper - from dipper - QKQ1.190828.002
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|1e405ee7b305ae0b2df850177c695459e2c5a234
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|438af398ac58c62c4237e15b9b16f19ab84d14e6
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|cb87e8d2f44d125aac7f3b35ad23c82cf7ba746e
 
 # Graphics (Adreno) - from blueline - QP1A.191005.007
 vendor/lib/egl/eglSubDriverAndroid.so|0c11f1a3f664788a2d14fc1453cd817259d0c8dd
@@ -442,19 +419,19 @@ vendor/lib/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib/vendor.qti.imsrtpservice@1.0.so
 
-# IO prefetcher
-vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
-vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/libqti-iopd.so
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
-vendor/lib/libqti-iopd-client.so
-vendor/lib/libqti-iopd.so
-vendor/lib/vendor.qti.hardware.iop@1.0.so
-vendor/lib/vendor.qti.hardware.iop@2.0.so
+# IO prefetcher - from dipper - QKQ1.190828.002
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|4ecba6fdc1ef0c7796a03afb7e6cc1a3f1ed51c0
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc|fd11367b2585702190ef2577ce2ce6fc68f3a2f8
+vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|07444b6dc91070656924b311462331cdd8a453a6
+vendor/lib64/libqti-iopd-client.so|3e247a7e040b61e6f5fa3b4015c92753c69be741
+vendor/lib64/libqti-iopd.so|00fb5825b7391961a8c81835b5750d472acc19dc
+vendor/lib64/vendor.qti.hardware.iop@1.0.so|4b888566e43b5da4293338961fc19e91370e25a9
+vendor/lib64/vendor.qti.hardware.iop@2.0.so|cb4bd932e3a8b72569d3607b08b0dbaaf2cc7649
+vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|7119afd4bc62833beadbddae6e91208d11200912
+vendor/lib/libqti-iopd-client.so|9e0af757ada8d473ce37a32a720220da196628c4
+vendor/lib/libqti-iopd.so|d2e4031886d66be29d23c623ca6d32905dc79776
+vendor/lib/vendor.qti.hardware.iop@1.0.so|285112b4bbf4158c73110988e86b0d4e1e6e2152
+vendor/lib/vendor.qti.hardware.iop@2.0.so|5531396f9c3c1d1453488c85a9440c0491268692
 
 # IPA firmware
 vendor/firmware/ipa_fws.b00
@@ -551,44 +528,44 @@ vendor/lib64/libspcom.so|f840d243517c9d837e1fd34f05458310d312983c
 vendor/lib/libperipheral_client.so
 vendor/lib/libspcom.so|23ec643a462306d18b154ce305dbb3daf3665722
 
-# Perf
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
-vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
-vendor/etc/perf/commonresourceconfigs.xml
-vendor/etc/perf/perf-profile0.conf
-vendor/etc/perf/perf-profile1.conf
-vendor/etc/perf/perf-profile2.conf
-vendor/etc/perf/perf-profile3.conf
-vendor/etc/perf/perf-profile4.conf
-vendor/etc/perf/perf-profile5.conf
-vendor/etc/perf/perf-profile6.conf
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfboostsconfigmi.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-vendor/lib64/libfeedbackhandler.so
-vendor/lib64/libperfgluelayer.so
-vendor/lib64/libqti-perfd-client.so
-vendor/lib64/libqti-perfd.so
-vendor/lib64/libqti-util.so
-vendor/lib64/vendor.qti.hardware.perf@1.0.so
-vendor/lib/libfeedbackhandler.so
-vendor/lib/libperfgluelayer.so
-vendor/lib/libqti-perfd-client.so
-vendor/lib/libqti-perfd.so
-vendor/lib/libqti-util.so
-vendor/lib/vendor.qti.hardware.perf@1.0.so
+# Perf  - from dipper - QKQ1.190828.002
+vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|d9778adf5448592796d6b2f201fe83e2ab2347aa
+vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|0101a3294311c2988060a00f7b25d8abf2f428f9
+vendor/etc/perf/commonresourceconfigs.xml|20f4ccc21170c43ea922d9b7936d9e6823c83fa1
+vendor/etc/perf/perf-profile0.conf|02204355bf29ceb0460cd53e6716552bb9d9b05f
+vendor/etc/perf/perf-profile1.conf|4056b772f2790ffd2f466275be8f03e4a796b55c
+vendor/etc/perf/perf-profile2.conf|66ac3877bf0030b72c99107f665bb392538d0237
+vendor/etc/perf/perf-profile3.conf|91fc5322ecee2985f128049b0d44e2bee0b3be78
+vendor/etc/perf/perf-profile4.conf|8cb4e9a968ae7e8918be60f10ea55da89b640d99
+vendor/etc/perf/perf-profile5.conf|e2352fb4d9a1ea711b476df58c762f74c959e2c1
+vendor/etc/perf/perf-profile6.conf|910a193b8425bbe0080f746d6788e66986b2e762
+vendor/etc/perf/perfboostsconfig.xml|dbdbd6285c2d8c24b8bd02000d36ede65b0f296e
+vendor/etc/perf/perfconfigstore.xml|c58788a418ff5ef7dac0799c7d31f8fe4fe32024
+vendor/etc/perf/targetconfig.xml|5c81c22e06c6a0fc77e4f39efb4f7034f7bf5a3f
+vendor/etc/perf/targetresourceconfigs.xml|ab576578f1bcb02115b8a30d4a109d660d2e6fb6
+vendor/lib/libperfconfig.so|ad4ec058dc01379261169eca8c2ef0804d840587
+vendor/lib/libperfgluelayer.so|14e68d060569044a6fd64789b1cfb445f96f8694
+vendor/lib/libqti-perfd-client.so|2f641bf0ef4a989b432654cfe7a9faf68c160fdd
+vendor/lib/libqti-perfd.so|4cf1c68f835c20bf4370e56afa668f8228f79c97
+vendor/lib/libqti-util.so|21b1b42479fd3ac85c2eb32f8c09f227a7a84e6b
+vendor/lib/vendor.qti.hardware.perf@2.0.so|9d87d7cfd5c1a252a930b4d21cd06705146c746b
+vendor/lib64/libperfconfig.so|5f4de3110d0d8a51cc9ae4dc9dc2b8fc3ffc0352
+vendor/lib64/libperfgluelayer.so|e3db0526cdbb65323deef72e28286ae67420a214
+vendor/lib64/libqti-perfd-client.so|941da516c48d801041ee229f9b87c809c7969aae
+vendor/lib64/libqti-perfd.so|8cf8d0a63f2a11a2343da02dad1ad7f5aea21038
+vendor/lib64/libqti-util.so|a8d68967fedf87d569b15d30b93f814f152f9fe7
+vendor/lib64/vendor.qti.hardware.perf@2.0.so|5126e4795575b543c133af640e806de3310c5079
 
-# Power-off alarm - from Z01R - QKQ1.190723.002
--product/app/PowerOffAlarm/PowerOffAlarm.apk|21fea777e448b96e936f4f85fed1f6938aef7c7c
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|b6cb42f6134073b86f9980233382990d35f82b2a
-vendor/bin/power_off_alarm|b53aa4a998dbc51d7a8ca98ba87eeee2d1c182ea
+# Power-off alarm - from dipper - QKQ1.190828.002
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|29ea64d6d9b20b29f7b3ffb3f71a81038a0ec64c
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|c7c712f51e09931d30d3746a616221e535eca289
+vendor/bin/power_off_alarm|9781703c7caa0ad6a22abb046e783862fbb004ee
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|f5fe26b078a4e2f5443818fccdbdaba8f9885815
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|d09b7895f8b30d069c7a46ac10870d5334b6ea02
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|b3e4b897e3481bc7261360d45bd6da41c797e2cf
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|0f7921947ddbb25591f6b3abf0bcb4f34eff141f
 
-# Power-off charging daemon
--sbin/charger:bin/chargeonlymode|f048d2cc20783ba1a608b73d440b3053af6ec9fd
+# Power-off charging daemon - from dipper - QKQ1.190828.002
+-bin/charger:bin/chargeonlymode|520e1b5ab25c9d72777fabe47e4154a1137256cf
 
 # QMI
 etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
@@ -790,47 +767,48 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# SSR
-vendor/bin/ssr_setup
-vendor/bin/subsystem_ramdump
+# SSR - from dipper - QKQ1.190828.002
+vendor/bin/ssr_setup|6d11f9b21045be0c48e3eaf6540efcc84e1a7f90
+vendor/bin/subsystem_ramdump|68a6727ee1ee83e3aa5148a4b6f9f89e1f373676
 
 # Thermal engine
 vendor/bin/thermal-engine
 vendor/lib64/libthermalclient.so
 vendor/lib/libthermalclient.so
 
-# Time services
--vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/lib64/libtime_genoff.so
-vendor/lib/libtime_genoff.so
+# Time services - from dipper - QKQ1.190828.002
+-vendor/app/TimeService/TimeService.apk;PRESIGNED|27f9b81621c446baa8c37581d9bfbca2fd67b496
+vendor/bin/time_daemon|b0066192a3ba33e0fbc78072b107ead72d916072
+vendor/etc/init/init.time_daemon.rc|edb18291351eb7efcb597d33c2c7f2d9bb7328a9
+vendor/lib64/libtime_genoff.so|34e97baaa5993b2369e67654363487ca79e45a81
+vendor/lib/libtime_genoff.so|da2d86c7c948559d8e253842278a469cb22342c7
 
-# Trusted Execution Environment connector
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib64/libGPQTEEC_vendor.so
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib/libGPQTEEC_vendor.so
-vendor/lib/libGPTEE_vendor.so
-vendor/lib/libQTEEConnector_vendor.so
-vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
+# Trusted Execution Environment connector - from dipper - QKQ1.190828.002
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|7901f116bf84adef6e848e602124917254aa382c
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|5d6532a83e9869e98e36e1931329bc59e09d2fe6
+vendor/lib64/libGPQTEEC_vendor.so|8d001dd0e22276ff877117d51dcb3386f67a228f
+vendor/lib64/libGPTEE_vendor.so|3dc7837571204f609bc93e4ca2d1b827ab11334d
+vendor/lib64/libQTEEConnector_vendor.so|a89cbeaed5302ab4a6ebe593f68bd2c104f02c7a
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|deb4c2efaa06b4af49023896c5f35d6451b94ff6
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|d559fdabada30491f01825f6849009d9048e986c
+vendor/lib/libGPQTEEC_vendor.so|b80e63e0aeb985ae17ca14638a61bf74c8a07cdc
+vendor/lib/libGPTEE_vendor.so|6c5a5a061df8fb33a336d6716080c7347378464b
+vendor/lib/libQTEEConnector_vendor.so|117e428fcb2ea3c49f6ed217dceefaf5ad62fb15
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|3edb8551962fcbf911acde701a4133656db430c8
 
-# Trusted User Interface
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
+# Trusted User Interface - from dipper - QKQ1.190828.002
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|9f5434d184f868c576ac86e950a305d6b4924430
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|53203fc5b6aa073e6396180b49d11ec4a5a8f208
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|3cc58773ebaa5584517c2986248d97bfb43c6095
 
-# Widevine DRM
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
-vendor/lib64/mediadrm/libwvdrmengine.so
-vendor/lib64/libwvhidl.so
-vendor/lib/mediadrm/libwvdrmengine.so
+# Widevine DRM - from dipper - QKQ1.190828.002
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine|c184748f97145fb7b136423eccf47d9713f86e93
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|68767969f86126ada017fc09af151e299db651d5
+vendor/lib64/mediadrm/libwvdrmengine.so|c23a0517b989dae94931582c74ac3ab178b21443
+vendor/lib64/libwvhidl.so|1be0b0548588ab4fc586a613e006a612f3b9a3ce
+vendor/lib/mediadrm/libwvdrmengine.so|0b6f7106d1071054b2d5e859b04559264ac3ac2b
 
 # Wi-Fi
 vendor/bin/cnss-daemon
