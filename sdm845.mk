@@ -389,4 +389,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.lmk.kill_timeout_ms=100 \
     ro.lmk.use_minfree_levels=true \
 
+# Dexpreopt SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUIGoogle
+
 PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/sdm845-common/sdm845/kernel-headers
