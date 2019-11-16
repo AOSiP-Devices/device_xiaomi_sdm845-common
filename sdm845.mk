@@ -18,8 +18,7 @@
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom/sdm845 \
-    hardware/qcom/sdm845/audio
+    hardware/qcom/sdm845
 
 $(call inherit-product, $(LOCAL_PATH)/utils.mk)
 
