@@ -275,6 +275,10 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
 
+# Perf
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.xiaomi_sdm845
