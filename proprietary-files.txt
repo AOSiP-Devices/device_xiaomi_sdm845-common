@@ -22,56 +22,56 @@ vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 
 # Audio - from dipper - Pie
-vendor/lib64/hw/audio.primary.sdm845.so|P
-vendor/lib64/libacdb-fts.so|P
-vendor/lib64/libacdbrtac.so|P
-vendor/lib64/libadiertac.so|P
-vendor/lib64/libaudcal.so|P
-vendor/lib64/libaudioalsa.so|P
-vendor/lib64/libaudio_log_utils.so|P
-vendor/lib64/libaudioparsers.so|P
-vendor/lib64/libcsd-client.so|P
-vendor/lib64/libqtigef.so|P
-vendor/lib64/libtinycompress_vendor.so|P
-vendor/lib/hw/audio.primary.sdm845.so|P
-vendor/lib/libacdb-fts.so|P
-vendor/lib/libacdbrtac.so|P
-vendor/lib/libadiertac.so|P
-vendor/lib/libadm.so|P
-vendor/lib/libaudcal.so|P
-vendor/lib/libaudioalsa.so|P
-vendor/lib/libaudio_log_utils.so|P
-vendor/lib/libaudioparsers.so|P
-vendor/lib/libcsd-client.so|P
-vendor/lib/libqtigef.so|P
-vendor/lib/libtinycompress_vendor.so|P
+vendor/lib64/hw/audio.primary.sdm845.so|fd66c3a0ac1b9c5e7f198f5b4f3f383e83538546
+vendor/lib64/libacdb-fts.so|b05222b13996f8800176282fcd54308b52c48805
+vendor/lib64/libacdbrtac.so|e7548e7f29177d121e2003b596e417240fdd0bca
+vendor/lib64/libadiertac.so|409010c966ba5e542bb39f7a05b8e6bba13e5620
+vendor/lib64/libaudcal.so|e4e07a50478217164ebe7d9084f13fff75c983ab
+vendor/lib64/libaudioalsa.so|a06783ce10f0683c44dcbb407b6f64b6b05eef45
+vendor/lib64/libaudio_log_utils.so|419c9c81f980d7972f6541b6ebe0fc9df9a4dc5f
+vendor/lib64/libaudioparsers.so|33f6115a500efa7556d98dc93421dd887080a4d9
+vendor/lib64/libcsd-client.so|37c7a5dd581a4bbef9802402eb9a69aabbd1727f
+vendor/lib64/libqtigef.so|de8de65f4ae93df66eff356d805f2067e6309294
+vendor/lib64/libtinycompress_vendor.so|25055c6f0149bf6b265b11d468b5155f39cec498
+vendor/lib/hw/audio.primary.sdm845.so|581ddd7721437c283cad30c289e0a127e31025f9
+vendor/lib/libacdb-fts.so|237919983f75891e2e455f8d6acbc88cf69b5612
+vendor/lib/libacdbrtac.so|4721e4b120265bcced314873eb3835e3978f2325
+vendor/lib/libadiertac.so|bb5bcd084dce7e47c7a9828dfdb1ebf2fae59d62
+vendor/lib/libadm.so|a09ceb09ebc25c289671dad410194f5b3edfec73
+vendor/lib/libaudcal.so|ca069f9c798cb5036c78d5f3d9c762c2073dd935
+vendor/lib/libaudioalsa.so|8c7baeb973fb398c179e2d7a2974ad42ef34a2f6
+vendor/lib/libaudio_log_utils.so|9f029dd6dacc550ac9372aa90d8936b22bf55f62
+vendor/lib/libaudioparsers.so|97ca493f93060519038d1a9210137ef63d7f73ec
+vendor/lib/libcsd-client.so|318b79ab848ed2e7787e6409f612d80b72b7486e
+vendor/lib/libqtigef.so|c55660c0114f4d616d0d13f1ec6fa67c740dfa9f
+vendor/lib/libtinycompress_vendor.so|968e15e6a0f15941135168797886899da2c1c7cf
 
 # Audio Route - from cepheus - 10
 vendor/lib64/libaudioroute_ext.so|cc01f7a0548e335d9ef7db1970b99e4ad8184ffd
 vendor/lib/libaudioroute_ext.so|b0b8df2d9adde86399893d95b5fe83533c3f841c
 
 # Audio FX modules - from dipper - Pie
-etc/permissions/audiosphere.xml|P
-framework/audiosphere.jar|P
-vendor/lib64/soundfx/libasphere.so|P
-vendor/lib64/soundfx/libdirac.so|P
-vendor/lib64/soundfx/libqcbassboost.so|P
-vendor/lib64/soundfx/libqcreverb.so|P
-vendor/lib64/soundfx/libqcvirt.so|P
-vendor/lib64/soundfx/libshoebox.so|P
-vendor/lib/soundfx/libasphere.so|P
-vendor/lib/soundfx/libdirac.so|P
-vendor/lib/soundfx/libmisoundfx.so|P
-vendor/lib/soundfx/libqcbassboost.so|P
-vendor/lib/soundfx/libqcreverb.so|P
-vendor/lib/soundfx/libqcvirt.so|P
-vendor/lib/soundfx/libshoebox.so|P
+etc/permissions/audiosphere.xml|3c6d8f14bd99e52a424282fd5d0a5b9b06485dea
+framework/audiosphere.jar|727fac8181bd3a7f8a18e14692747628a8a0c752
+vendor/lib64/soundfx/libasphere.so|718aa55bf9a32cb77a6f5e8f33e776d30e2dadc9
+vendor/lib64/soundfx/libdirac.so|df1f53591545e986a0d6bad768a020d6f6fa5101
+vendor/lib64/soundfx/libqcbassboost.so|1f9b4eca3f6b1fea872d90b943d2c434e25e0fa4
+vendor/lib64/soundfx/libqcreverb.so|d8ce60a46a0d20e21d3246742e08328606ddf960
+vendor/lib64/soundfx/libqcvirt.so|88349315d99cea68a3b766fa4c6e1181d26f561b
+vendor/lib64/soundfx/libshoebox.so|aa2f090db08319c4e2178817ab0cd79cd954d5e3
+vendor/lib/soundfx/libasphere.so|0783283ac9f68d5ebbeef350adc9b66b3248449b
+vendor/lib/soundfx/libdirac.so|6f583fb0494bc0c3610b8868d90daf131fd50350
+vendor/lib/soundfx/libmisoundfx.so|95ae9145647a85e435685036beba4dba0579a951
+vendor/lib/soundfx/libqcbassboost.so|1722ba76b9e6922fca17ce9f538d71b3ae37d78e
+vendor/lib/soundfx/libqcreverb.so|fa8a59cc8dc376ba8903104ac36707e576280c24
+vendor/lib/soundfx/libqcvirt.so|c373619e800e379d3bc88bee9dacf80a87a4e0ca
+vendor/lib/soundfx/libshoebox.so|ed09e7c1a9ca1a32953fa0d3d3f90403547ae0dc
 
 # Bluetooth - from dipper - Pie
-vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|P
-vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so|P
-vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so|P
-vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so|P
+vendor/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so|21de483d9e131d6ce14bd6eeb6dc3dc5770d8700
+vendor/lib64/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so|b3bf5f71040445f686f26ba32ce32dcecdb7d3de
+vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so|4be7f66648ba2261b80a9e2873f55a4914c6fd5a
+vendor/lib/hw/com.qualcomm.qti.bluetooth_audio@1.0-impl.so|28b39b608a1b3fd2bca0de5edd8e5170622aada8
 
 # Bluetooth (aptX) - from crosshatch - QP1A.190711.020
 lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
@@ -308,14 +308,14 @@ vendor/lib64/libllvm-qcom.so|e57a2431096d28c3e6757075863836cb9e92838a
 vendor/lib64/librs_adreno.so|778128a74f180bbb628d6c17f43aa211be50988c
 vendor/lib64/librs_adreno_sha1.so|d5fd0c0688ab454da7cdd787a9f97338a3e53bc9
 
-# Graphics (Adreno firmware) - from dipper - Pie
-vendor/firmware/a630_gmu.bin|P
-vendor/firmware/a630_sqe.fw|P
-vendor/firmware/a630_zap.b00|P
-vendor/firmware/a630_zap.b01|P
-vendor/firmware/a630_zap.b02|P
-vendor/firmware/a630_zap.elf|P
-vendor/firmware/a630_zap.mdt|P
+# Graphics (Adreno firmware)
+vendor/firmware/a630_gmu.bin
+vendor/firmware/a630_sqe.fw
+vendor/firmware/a630_zap.b00
+vendor/firmware/a630_zap.b01
+vendor/firmware/a630_zap.b02
+vendor/firmware/a630_zap.elf
+vendor/firmware/a630_zap.mdt
 
 # Graphics (Vulkan) - from blueline - QP1A.191005.007
 vendor/lib/hw/vulkan.sdm845.so|f43ce630bb57dd2306b8ea0ea817291990e0eb3d
@@ -449,28 +449,28 @@ vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
 
 # Listen - from dipper - Pie
-vendor/lib64/hw/sound_trigger.primary.sdm845.so|P
-vendor/lib64/libcapiv2svacnn.so|P
-vendor/lib64/libcapiv2vop.so|P
-vendor/lib64/libgcs-calwrapper.so|P
-vendor/lib64/libgcs-ipc.so|P
-vendor/lib64/libgcs-osal.so|P
-vendor/lib64/libgcs.so|P
-vendor/lib64/liblistenjni.so|P
-vendor/lib64/liblistensoundmodel2.so|P
-vendor/lib64/libmulawdec.so|P
-vendor/lib/hw/sound_trigger.primary.sdm845.so|P
-vendor/lib/libadpcmdec.so|P
-vendor/lib/libcapiv2svacnn.so|P
-vendor/lib/libcapiv2vop.so|P
-vendor/lib/libgcs-calwrapper.so|P
-vendor/lib/libgcs-ipc.so|P
-vendor/lib/libgcs-osal.so|P
-vendor/lib/libgcs.so|P
-vendor/lib/libsmwrapper.so|P
-vendor/lib/liblistenjni.so|P
-vendor/lib/liblistensoundmodel2.so|P
-vendor/lib/libmulawdec.so|P
+vendor/lib64/hw/sound_trigger.primary.sdm845.so|819978f2bce22c705050d11e0a7c6bdaecc65153
+vendor/lib64/libcapiv2svacnn.so|b05b723ab0d33e78d1532b970e7b15a09d550413
+vendor/lib64/libcapiv2vop.so|f79d248475b38d727e87d0a2e5c54688fe628a29
+vendor/lib64/libgcs-calwrapper.so|f4446f9516b6ece01574eb61f3b32edd87e7496c
+vendor/lib64/libgcs-ipc.so|1604de4742b7fe2bc82483aab2b2f1ea351d77a2
+vendor/lib64/libgcs-osal.so|a272e979624460a5b9b9602b670c2df5f6f3faf9
+vendor/lib64/libgcs.so|dec73610648bea3ad36428a509d03d4e176159b6
+vendor/lib64/liblistenjni.so|f1549232e0135124b0a65861a8e4b4d089b6a69f
+vendor/lib64/liblistensoundmodel2.so|20bab1d872b532bbd1ade44bb7d668af58302fc2
+vendor/lib64/libmulawdec.so|8e8c36941141ac4712e58f8ebd86dbcbabb697f0
+vendor/lib/hw/sound_trigger.primary.sdm845.so|33676d7c72c2a7c8c0e87f369157b72217c7cbd7
+vendor/lib/libadpcmdec.so|9ded92f146944e52d74505d7f37713ba48c8b228
+vendor/lib/libcapiv2svacnn.so|9000dd056865105fce59bc1f2d0e51a0d2d5114e
+vendor/lib/libcapiv2vop.so|7ff41bc5b25f8140ba04d14891d4817777a24f23
+vendor/lib/libgcs-calwrapper.so|c06e23bda7b614a69993aaa301b1d75267428588
+vendor/lib/libgcs-ipc.so|c3488310a2a1ae68a8515e9fcdd6ef66eda9149b
+vendor/lib/libgcs-osal.so|cc4e97a304026749b59edfe13a265cf3f97511ec
+vendor/lib/libgcs.so|c0d87c38740399a8181a3c6282e5b4702a22285e
+vendor/lib/libsmwrapper.so|406e6de719b396614c43ad4324e082366ecb54f4
+vendor/lib/liblistenjni.so|9fe87ceab86b515e71dbb739c62a38d6ca10c0ec
+vendor/lib/liblistensoundmodel2.so|1390f1cb2348a0f13c4b6c8e040b40c9eace3f4a
+vendor/lib/libmulawdec.so|40a56edcf16cb6930f82ed3b72e3827223cad167
 
 # Media C2 - from blueline - QP1A.191005.007
 vendor/bin/hw/vendor.qti.media.c2@1.0-service|5f500c8fb5b9d1f2a0d5b29f90388382b12eb667
