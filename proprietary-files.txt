@@ -515,11 +515,14 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 
-# Neural networks - from dipper - Pie
-vendor/etc/init/android.hardware.neuralnetworks@1.1-service-qti.rc|P
-vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-qti|P
-vendor/lib64/libhexagon_nn_stub.so|P
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|P
+# Neural network
+vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
+vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
+vendor/lib64/libhexagon_nn_stub.so
+vendor/lib64/unnhal-acc-adreno.so
+vendor/lib64/unnhal-acc-common.so
+vendor/lib64/unnhal-acc-hvx.so
 
 # Peripheral manager - from dipper - Pie
 vendor/bin/pm-proxy|P
