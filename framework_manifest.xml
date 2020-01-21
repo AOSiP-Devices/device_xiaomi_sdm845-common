@@ -8,13 +8,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl">
-        <name>vendor.google.wifi_ext</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IWifiExt</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
 </manifest>

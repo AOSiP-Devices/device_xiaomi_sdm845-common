@@ -809,6 +809,3 @@ vendor/lib/mediadrm/libwvdrmengine.so
 
 # Wi-Fi
 vendor/bin/cnss-daemon
-vendor/bin/hw/vendor.google.wifi_ext@1.0-service-vendor|a6692345e361e64f8a7882517f7d964b700e5896
-vendor/etc/init/vendor.google.wifi_ext@1.0-service.rc|4c85d466367142c038464bcec503c511cc53d082
-vendor/lib64/vendor.google.wifi_ext@1.0.so|69211ba1e8d6d4269ec22ee4171dfea4c36b9791
