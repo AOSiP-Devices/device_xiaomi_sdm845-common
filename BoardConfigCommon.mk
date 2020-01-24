@@ -143,6 +143,7 @@ BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 # Treble
 BOARD_VNDK_VERSION := current
 PRODUCT_FULL_TREBLE_OVERRIDE := true
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 
 # WiFi
 BOARD_WLAN_DEVICE := qcwcn
