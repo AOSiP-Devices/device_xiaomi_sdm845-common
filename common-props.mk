@@ -228,7 +228,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ril.subscription.types=NV,RUIM \
     rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.com.android.dataroaming=true \
-    ro.telephony.default_network=22,22 \
+    ro.telephony.default_network=10,10 \
     telephony.lteOnCdmaDevice=1
 
 # SSR
