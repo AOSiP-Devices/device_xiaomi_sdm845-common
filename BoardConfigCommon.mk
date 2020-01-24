@@ -60,7 +60,7 @@ TARGET_USES_QCOM_MM_AUDIO := true
 # TODO(b/123695868): Remove the need for this
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := build/make/target/board/mainline_arm64/bluetooth
 BOARD_HAVE_BLUETOOTH_QCOM := true
-TARGET_USE_QTI_BT_STACK := true
+BOARD_USES_COMMON_BLUETOOTH_HAL := true
 
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
