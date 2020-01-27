@@ -348,6 +348,7 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libdisplayconfig \
+    libdisplayconfig.vendor \
     libnl \
     libqdMetaData.system
 
