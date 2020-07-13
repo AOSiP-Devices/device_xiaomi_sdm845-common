@@ -14,6 +14,9 @@ $(call inherit-product-if-exists, vendor/xiaomi/sdm845-common/sdm845-common-vend
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Include PSU if synced
+$(call inherit-product-if-exists, vendor/google/psu/google-psu.mk)
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
